@@ -1,5 +1,5 @@
 // stuff/timer.js
-const startDate = new Date('2024-08-31T00:00:00'); // Set the start date and time
+const startDate = new Date('2024-08-31T19:23:40'); // Set the start date and time
 
 function updateCounter() {
     const today = new Date();

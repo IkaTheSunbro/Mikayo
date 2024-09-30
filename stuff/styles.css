@@ -1,9 +1,9 @@
 body {
-    margin: 0;                        /* Remove default margin */
-    background-color: #ffffff;        /* Light background */
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font */
-    overflow-y: scroll;               /* Allow vertical scrolling */
-    height: auto;                     /* Allow body height to expand */
+    margin: 0;
+    background-color: #ffffff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    overflow-y: scroll;
+    height: auto;
 }
 
 .heart {
@@ -145,18 +145,22 @@ span:last-child {
 }
 
 .love-message {
-    position: relative;             /* Allow it to scroll with content */
-    margin: 30vh auto;             /* Margin from the top */
-    background-color: #ffffff2f; /* Semi-transparent background */
-    backdrop-filter: blur(10px);   /* Blur effect for the background */
-    border-radius: 15px;           /* Rounded corners */
-    padding: 40px 20px;            /* Increased padding for space */
-    box-shadow: 0 4px 20px #ffd5ed; /* Shadow for depth */
-    text-align: center;            /* Center text alignment */
-    width: 600px;                  /* Fixed width */
-    max-width: 90%;                /* Responsive on smaller screens */
-    height: auto;                  /* Allow height to grow with content */
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 600px;            /* Fixed width */
+    max-width: 100%;         /* Responsive on smaller screens */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    color: #feb2dd;
+    margin: 20px auto;       /* Center the love-message horizontally */
+    display: flex;           /* Flexbox to ensure proper centering */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;     /* Center the content vertically */
+    margin-top: 15vh;
 }
+
 
 .love-message p {
     font-size: 1.5rem;                                      /* Adjust font size */
@@ -167,4 +171,29 @@ span:last-child {
 
 .dummy-content {
     height: 1500px;                  /* Make it tall enough to scroll */
+}
+
+.text-image-container {
+    position: relative;      /* Container for the GIF and text */
+    width: 600px;            /* Set a fixed width for the container */
+    max-width: 100%;         /* Make it responsive */
+    margin: 15vh auto;       /* Add top margin here to create space from the top */
+    text-align: center;      /* Ensure contents are centered */
+}
+
+.overlay-image {
+    display: block;          /* Ensure it's treated like a block element */
+    margin: 2vh auto;         /* Center the GIF horizontally */
+    max-width: 100%;        /* Make the GIF responsive */
+    width: 100%;            /* GIF fills the container */
+    height: auto;           /* Maintain the aspect ratio */
+    opacity: 0.7;           /* Slight transparency */
+}
+
+.text-image-container:first-child .overlay-image {
+    margin-top: 10vh;       /* Adjust this value to increase space from the top */
+}
+
+.text-image-container .overlay-image {
+    margin-bottom: 3vh;     /* Keep this value small for space between GIFs */
 }
