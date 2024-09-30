@@ -1,13 +1,13 @@
-body { 
-    margin: 0; 
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #ffffff;
+body {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    height: 100vh;           /* Full height of the viewport */
+    margin: 0;                /* Remove default margin */
+    background-color: #ffffff; /* Light yellow background for a cheerful vibe */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Use a fun font */
+    overflow: hidden;          /* Prevent overflow */
+    position: relative;        /* Enable absolute positioning for children */
 }
 
 .heart {
@@ -36,46 +36,86 @@ body {
 }
 
 .counter {
+    position: absolute;        /* Position counter absolutely */
+    top: 10px;                /* Closer to the top */
+    right: 10px;              /* Closer to the right */
+    display: flex;            /* Use flexbox for overall layout */
+    flex-direction: column;    /* Stack the title and circles container vertically */
+    align-items: center;      /* Center align all items */
+    padding: 10px;            /* Less padding around the counter */
+    max-width: 90%;           /* Limit max width to 90% of the viewport */
+}
+
+.circle-container {
     display: flex;            /* Use flexbox for circles */
     justify-content: center;  /* Center circles */
     align-items: center;      /* Center content inside circles */
+    flex-wrap: nowrap;        /* Prevent circles from wrapping */
+    margin-top: 5px;         /* Space between title and circles */
 }
 
 .circle {
-    width: 100px;                /* Width of the circles */
-    height: 100px;               /* Height of the circles */
-    border-radius: 50%;          /* Make them circular */
-    background-color: white;     /* Set background to white */
-    border: 5px solid #ffd6ea;   /* Pinkish border color (you can adjust this color) */
-    box-shadow: 0 4px 15px rgba(252, 223, 255, 0.352); /* Shadow for depth */
-    margin: 10px;                /* Space between circles */
-    display: flex;               /* Use flexbox for circle content */
-    flex-direction: column;      /* Stack content vertically */
-    justify-content: center;      /* Center text vertically */
-    align-items: center;          /* Center text horizontally */
-    font-size: 24px;             /* Font size for the numbers */
-    text-align: center;           /* Center text */
-    transition: transform 0.2s;   /* Smooth scaling effect */
+    width: 12vw;               /* Use 12% of viewport width for smaller circles */
+    height: 12vw;              /* Maintain circular shape */
+    max-width: 80px;           /* Limit the maximum size */
+    max-height: 80px;          /* Limit the maximum height */
+    border-radius: 50%;        /* Make them circular */
+    background-color: white;   /* Set background to white */
+    border: 5px solid #ffd5ed; /* Pinkish border color */
+    box-shadow: 0 4px 15px #ffd5ed; /* Shadow for depth */
+    margin: 5px;               /* Reduced space between circles */
+    display: flex;             /* Use flexbox for circle content */
+    flex-direction: column;    /* Stack content vertically */
+    justify-content: center;    /* Center text vertically */
+    align-items: center;        /* Center text horizontally */
+    text-align: center;         /* Center text */
+    transition: transform 0.2s; /* Smooth scaling effect */
 }
 
-
 .circle:hover {
-    transform: scale(1.1);   /* Scale up on hover for fun */
+    transform: scale(1.1);     /* Scale up on hover for fun */
 }
 
 span:first-child {
-    font-weight: bold;       /* Bold for the labels */
-    font-size: 18px;         /* Slightly smaller size for labels */
-    color: #666666;          /* Fun color for labels */
+    font-weight: bold;         /* Bold for the labels */
+    font-size: 1vw;         /* Smaller size for labels */
+    color: #ffd5ed;            /* Fun color for labels */
 }
 
 span:last-child {
-    font-size: 32px;         /* Bigger size for the numbers */
-    color: #ffffff;          /* Fun color for the numbers */
+    font-size: 1.5vw;          /* Smaller size for the numbers */
+    color: #ffffff;            /* Fun color for the numbers */
     text-shadow: 
-        1px 1px 0px #ffb5d9,   /* Slight shadow to bottom right */
-        -1px -1px 0px #ffb5d9, /* Slight shadow to top left */
-        1px -1px 0px #ffb5d9,  /* Slight shadow to top right */
-        -1px 1px 0px #ffb5d9,  /* Slight shadow to bottom left */
-        0px 0px 3px #ffb5d9;    /* Slight blur effect for smoother outline */
+        1px 1px 0px #ffd5ed,     /* Slight shadow to bottom right */
+        -1px -1px 0px #ffd5ed,   /* Slight shadow to top left */
+        1px -1px 0px #ffd5ed,    /* Slight shadow to top right */
+        -1px 1px 0px #ffd5ed,    /* Slight shadow to bottom left */
+        0px 0px 3px #ffd5ed;      /* Slight blur effect for smoother outline */
+}
+
+.counter-title {
+    color: #ffd5ed;           /* Use the same color as the circle borders */
+    font-size: 1.5rem;        /* Smaller size for the title */
+    text-align: center;       /* Center the title text */
+    margin-bottom: 5px;       /* Space between title and circles */
+    text-shadow: 1px 1px 0px #ffd5ed; /* Optional shadow for depth */
+}
+
+/* Media queries for further adjustments on smaller screens */
+@media (max-width: 600px) {
+    .circle {
+        width: 25vw;            /* Make circles larger on small screens */
+        height: 25vw;           /* Maintain circular shape */
+        max-width: 70px;        /* Limit the maximum size on small screens */
+        max-height: 70px;       /* Limit the maximum height on small screens */
+    }
+
+    span:first-child {
+        font-size: 4vw;          /* Adjust label size */
+    }
+
+    span:last-child {
+        font-size: 5vw;          /* Adjust number size */
+    }
+
 }
