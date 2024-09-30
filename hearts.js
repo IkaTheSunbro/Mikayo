@@ -5,7 +5,7 @@ function hearts(){
 
     e.style.left = Math.random() * + innerWidth + 'px';
 
-    let size = Math.random() * 24;
+    let size = Math.random() * 18;
 
     e.style.fontSize = 12 + size+'px';
 
