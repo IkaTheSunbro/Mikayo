@@ -2,14 +2,14 @@ body {
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
-    background-color: #bdfffe;
+    background-color: #e2f0f0;
     overflow: hidden;
 }
 
 .heart {
     position: absolute;
     top: -20px;
-    color: #ffffff;
+    color: #ffd5ed;
     animation: raining 5s linear infinite;
     z-index: -1;
 }
@@ -17,7 +17,7 @@ body {
 .heart::before {
     content: '\f004';
     font-family: fontAwesome;
-    text-shadow: 0 0 5px #ffffff, 0 0 20px #ffffff, 0 0 50px #ffffff;
+    text-shadow: 0 0 5px #ffd5ed, 0 0 20px #ffd5ed, 0 0 50px #ffd5ed;
 }
 
 @keyframes raining{
