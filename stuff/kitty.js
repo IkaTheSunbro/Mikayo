@@ -1,4 +1,8 @@
 function spawnKitty(){
+
+    const audio = new Audio('media/meow.mp3'); // Path to your meow sound
+    audio.play();
+
     let e = document.createElement('img');
     e.setAttribute('class', 'kitty');
 
