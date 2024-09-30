@@ -1,0 +1,21 @@
+body { 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffe5d9;
+    overflow: hidden;
+}
+
+.heart {
+    position: absolute;
+    top: -20px;
+    color: #ffb3c6;
+    animation: animate 5s linear infinite;
+    z-index: -1;
+}
+
+.heart::before {
+    content: '\f004';
+    font-family: fontAwesome;
+    text-shadow: 0 0 5px #ffc9d7, 0 0 20px #ffc9d7, 0 0 50px #ffc9d7;
+}
