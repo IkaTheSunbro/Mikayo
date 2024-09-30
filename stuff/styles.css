@@ -1,13 +1,9 @@
 body {
-    display: flex;
-    justify-content: center;  /* Center horizontally */
-    align-items: center;      /* Center vertically */
-    height: 100vh;           /* Full height of the viewport */
-    margin: 0;                /* Remove default margin */
-    background-color: #ffffff; /* Light yellow background for a cheerful vibe */
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Use a fun font */
-    overflow: hidden;          /* Prevent overflow */
-    position: relative;        /* Enable absolute positioning for children */
+    margin: 0;                        /* Remove default margin */
+    background-color: #ffffff;        /* Light background */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font */
+    overflow-y: scroll;               /* Allow vertical scrolling */
+    height: auto;                     /* Allow body height to expand */
 }
 
 .heart {
@@ -36,14 +32,12 @@ body {
 }
 
 .counter {
-    position: absolute;        /* Position counter absolutely */
-    top: 10px;                /* Closer to the top */
-    right: 10px;              /* Closer to the right */
-    display: flex;            /* Use flexbox for overall layout */
-    flex-direction: column;    /* Stack the title and circles container vertically */
-    align-items: center;      /* Center align all items */
-    padding: 10px;            /* Less padding around the counter */
-    max-width: 90%;           /* Limit max width to 90% of the viewport */
+    position: fixed;                /* Fix position */
+    top: 10px;                     /* Distance from the top */
+    right: 10px;                   /* Distance from the right */
+    display: flex;                 /* Use flexbox for overall layout */
+    flex-direction: column;        /* Stack title and circles container vertically */
+    align-items: center;           /* Center align all items */
 }
 
 .circle-container {
@@ -70,6 +64,7 @@ body {
     align-items: center;        /* Center text horizontally */
     text-align: center;         /* Center text */
     transition: transform 0.2s; /* Smooth scaling effect */
+    
 }
 
 .circle:hover {
@@ -98,7 +93,8 @@ span:last-child {
     font-size: 1.5rem;        /* Smaller size for the title */
     text-align: center;       /* Center the title text */
     margin-bottom: 5px;       /* Space between title and circles */
-    text-shadow: 1px 1px 0px #ffd5ed; /* Optional shadow for depth */
+    text-shadow: 1px 1px 0px #969696; /* Optional shadow for depth */
+    
 }
 
 /* Media queries for further adjustments on smaller screens */
@@ -118,4 +114,58 @@ span:last-child {
         font-size: 4vw;          /* Adjust number size */
     }
 
+}
+
+.sidebar {
+    position: fixed;               /* Fix position */
+    bottom: 10px;                  /* Position from the bottom */
+    left: 10px;                    /* Adjust distance from the left */
+    background-color: transparent;  /* Make sidebar background transparent */
+    padding: 5px;                  /* Padding inside the sidebar */
+    border-radius: 10px;           /* Rounded corners for the sidebar */
+    display: flex;                 /* Use flexbox for button alignment */
+    flex-direction: column;        /* Stack buttons vertically */
+    gap: 15px;                     /* Space between buttons */
+}
+
+.sidebar-button {
+    background-color: white;         /* Background color for buttons */
+    color: #ffd5ed;                  /* Fun color for button text */
+    border: 4px solid #ffd5ed;       /* Larger border matching text color */
+    border-radius: 20px;             /* More rounded corners */
+    padding: 10px 20px;              /* Padding for buttons */
+    cursor: pointer;                 /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s; /* Smooth background change */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Comic Sans font */
+    text-shadow: 1px 1px 0px #969696; /* Optional shadow for depth */
+}
+
+.sidebar-button:hover {
+    background-color: #ffd5ed; /* Change background on hover */
+    color: white;              /* Change text color on hover */
+}
+
+.love-message {
+    position: relative;             /* Allow it to scroll with content */
+    margin: 30vh auto;             /* Margin from the top */
+    background-color: #ffffff2f; /* Semi-transparent background */
+    backdrop-filter: blur(10px);   /* Blur effect for the background */
+    border-radius: 15px;           /* Rounded corners */
+    padding: 40px 20px;            /* Increased padding for space */
+    box-shadow: 0 4px 20px #ffd5ed; /* Shadow for depth */
+    text-align: center;            /* Center text alignment */
+    width: 600px;                  /* Fixed width */
+    max-width: 90%;                /* Responsive on smaller screens */
+    height: auto;                  /* Allow height to grow with content */
+}
+
+.love-message p {
+    font-size: 1.5rem;                                      /* Adjust font size */
+    font-family: 'Comic Sans MS', cursive, sans-serif;     /* Use Comic Sans for fun text */
+    color: #969696;                                          /* White text color */
+   
+}
+
+.dummy-content {
+    height: 1500px;                  /* Make it tall enough to scroll */
 }
