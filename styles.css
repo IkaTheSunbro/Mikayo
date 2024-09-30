@@ -9,13 +9,13 @@ body {
 .heart {
     position: absolute;
     top: -20px;
-    color: #ffb3c6;
+    color: #ffffff;
     animation: raining 5s linear infinite;
     z-index: -1;
 }
 
 .heart::before {
-    content: '\f004';
+    content: 'f004';
     font-family: fontAwesome;
     text-shadow: 0 0 5px #ffc9d7, 0 0 20px #ffc9d7, 0 0 50px #ffc9d7;
 }
