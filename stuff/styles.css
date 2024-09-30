@@ -258,3 +258,26 @@ span:last-child {
     font-family: 'Comic Sans MS', cursive, sans-serif;     /* Use Comic Sans for fun text */
     color: #feb2dd;    
 }
+
+.kitty {
+    position: fixed;
+    width: 128px;
+    height: 96px;
+    bottom: 0;
+    left: -60px;
+    animation: run 8s linear infinite;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    pointer-events: none;
+    user-select: none;
+    z-index: 101;
+}
+
+@keyframes run{
+    0%{
+        left: -15%;
+    }
+    100%{
+        left: 200%;
+    }
+}
