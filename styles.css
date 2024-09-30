@@ -30,3 +30,12 @@ body {
         opacity: 0.2;
     }
 }
+
+#base {
+    background-color: #ffd1ce;
+    width: 50%;
+    height: 1000px;
+    margin: 10%;
+  }
+  
+  
