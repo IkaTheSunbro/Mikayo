@@ -104,8 +104,8 @@ span:last-child {
 /* Media queries for further adjustments on smaller screens */
 @media (max-width: 600px) {
     .circle {
-        width: 25vw;            /* Make circles larger on small screens */
-        height: 25vw;           /* Maintain circular shape */
+        width: 18vw;            /* Make circles larger on small screens */
+        height: 18vw;           /* Maintain circular shape */
         max-width: 70px;        /* Limit the maximum size on small screens */
         max-height: 70px;       /* Limit the maximum height on small screens */
     }
@@ -115,7 +115,7 @@ span:last-child {
     }
 
     span:last-child {
-        font-size: 5vw;          /* Adjust number size */
+        font-size: 4vw;          /* Adjust number size */
     }
 
 }
