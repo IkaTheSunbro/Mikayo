@@ -158,11 +158,18 @@ span:last-child {
     display: flex;           /* Flexbox to ensure proper centering */
     justify-content: center; /* Center the content horizontally */
     align-items: center;     /* Center the content vertically */
-    margin-top: 15vh;
+    margin-top: 15vh;       /* Adjust this for vertical spacing from the top */
 }
 
 
 .love-message p {
+    font-size: 1.5rem;                                      /* Adjust font size */
+    font-family: 'Comic Sans MS', cursive, sans-serif;     /* Use Comic Sans for fun text */
+    color: #feb2dd;                                          /* White text color */
+   
+}
+
+.love-message ul {
     font-size: 1.5rem;                                      /* Adjust font size */
     font-family: 'Comic Sans MS', cursive, sans-serif;     /* Use Comic Sans for fun text */
     color: #feb2dd;                                          /* White text color */
@@ -175,7 +182,7 @@ span:last-child {
 
 .text-image-container {
     position: relative;      /* Container for the GIF and text */
-    width: 600px;            /* Set a fixed width for the container */
+    width: 800px;            /* Set a fixed width for the container */
     max-width: 100%;         /* Make it responsive */
     margin: 15vh auto;       /* Add top margin here to create space from the top */
     text-align: center;      /* Ensure contents are centered */
@@ -196,4 +203,58 @@ span:last-child {
 
 .text-image-container .overlay-image {
     margin-bottom: 3vh;     /* Keep this value small for space between GIFs */
+}
+
+#mikayo-image{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: -90vw;
+    right: 0vw;
+    transform: rotateY(180deg);
+    z-index: 100;
+}
+
+.tab {
+    background-color: transparent; /* Make background transparent */
+    border: none;                 /* Remove any borders */
+    padding: 20px;                /* Keep padding for spacing */
+    margin: 20px auto;            /* Center the tab */
+    max-width: 600px;             /* Set a maximum width */
+    color: #feb2dd;               /* Ensure text is still visible */
+}
+
+.to-do {
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 600px;            /* Fixed width */
+    max-width: 100%;         /* Responsive on smaller screens */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    color: #feb2dd;
+    margin: 20px auto;       /* Center the love-message horizontally */
+    display: flex;           /* Flexbox to ensure proper centering */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;     /* Center the content vertically */
+    margin-top: 15vh;       /* Adjust this for vertical spacing from the top */
+}
+
+.to-do p {
+    font-size: 3.5rem;                                      /* Adjust font size */
+    font-family: 'Comic Sans MS', cursive, sans-serif;     /* Use Comic Sans for fun text */
+    color: #feb2dd;                                          /* White text color */
+}
+
+.to-do ul {
+    font-size: 1.5rem;                                      /* Adjust font size */
+    font-family: 'Comic Sans MS', cursive, sans-serif;     /* Use Comic Sans for fun text */
+    color: #feb2dd;                                          /* White text color */
+}
+
+.to-do li {
+    font-size: 1.5rem;                                      /* Adjust font size */
+    font-family: 'Comic Sans MS', cursive, sans-serif;     /* Use Comic Sans for fun text */
+    color: #feb2dd;    
 }

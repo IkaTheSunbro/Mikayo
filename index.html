@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>MIKAYO WORLD DOMINATION 2023</title>
-		<link rel="icon" href="media/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="stuff/styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	</head>
-	<body>
-        <script type="module" src="stuff/hearts.js"></script>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIKAYO WORLD DOMINATION 2023</title>
+    <link rel="icon" href="media/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="stuff/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <script type="module" src="stuff/hearts.js"></script>
 
-		<div class="text-image-container">
-			<img src="media/sheesh.gif" alt="Decorative GIF" class="overlay-image">
-			<img src="media/burning.gif" alt="Decorative GIF" class="overlay-image">
-		</div>
+    <div class="tab" id="home-tab">
+        <img src="media/mikayo.png" alt="My Favorite Character" id="mikayo-image">
+        <div class="text-image-container">
+            <img src="media/sheesh.gif" alt="Decorative GIF" class="overlay-image">
+            <img src="media/burning.gif" alt="Decorative GIF" class="overlay-image">
+        </div>
 
-		<div class="love-message">
-			<p class="love-text">
+        <div class="love-message">
+            <p class="love-text">
 				Sen bunu okurken çoktan ilk ayımızı doldurmuş olacağız sevgilim <33 Kınalıadada hep beraber buluştuğumuz günü 
 				daha dünmüş gibi hatırlıyorum <3 Adeta zaman kavramım o andan beri tamamıyla yok oldu ve kendi kendime 1 ay
 				nasıl bu kadar hızlı geçti diye sorup duruyorum <33 Seninle ilk tanıştığım günden beridir 
@@ -39,36 +41,62 @@
 				PS. WEBSITEYI SUREKLI GUNCELLEMEYE DEVAM EDICEM TATLIMM O YUZDEN ARADA BAKK!!
 				
 			</p>		
-		</div>
+        </div>
+    </div>
 
-		<div class="sidebar">
-			<button class="sidebar-button">Ana Sayfa</button>
-			<button class="sidebar-button">Planlarımız :3</button>
-			<button class="sidebar-button">Meow :33</button>
-		</div>	
+    <div class="tab" id="to-do-tab" style="display: none;"> <!-- Set to none initially -->
+        <div class="text-image-container">
+            <img src="media/text.gif" alt="Decorative GIF" class="overlay-image">
+        </div>
+        <div class="to-do">
+            <ul>
+				<li>1 MİLYON BİRA</li><br>
+				<li>LIFEFOTODA FOTO CEKILME</li><br>
+				<li>senin kucaginda uyuma meow :3</li><br>
+				<li>FUNGER DATE VOL 2</li><br>
+				<li>dabbe binge watch</li><br>
+				<li>BIRBIRIMIZE KOMBIN SECME</li><br>
+				<li>beraber karsiyi gezme :3</li><br>
+				<li>BURGAZADANIN RADYOAKTIF SUYUNDA YUZME</li><br>
+				<li>3 saat araliksiz sarilma :3</li><br>
+				<li>MANTI YAPMAMIZ LAZIM BERABER</li><br>
+				<li>EUROVISION KARAOKE</li><br>
+				<li>23181 MİLYON BİRA</li><br>
+				<li>92319283 TRILYON BİRA</li><br>
+				<li>birbirimizi saatlerce doya doya öpme :3</li><br>
+			</ul>
+        </div>
+    </div>
 
-		<div class="counter">
-			<h4 class="counter-title">Ne zamandır beraberiz sayacı :3</h4>
-			<div class="circle-container">
-				<div id="days" class="circle">
-					<span>Gün</span>
-					<span>0</span>
-				</div>
-				<div id="hours" class="circle">
-					<span>Saat</span>
-					<span>0</span>
-				</div>
-				<div id="minutes" class="circle">
-					<span>Dakika</span>
-					<span>0</span>
-				</div>
-				<div id="seconds" class="circle">
-					<span>Saniye</span>
-					<span>0</span>
-				</div>
-			</div>	
-		</div>
-		
-		<script src="/stuff/timer.js"></script>
-		</body>
+    <div class="counter">
+        <h4 class="counter-title">Ne zamandır beraberiz sayacı :3</h4>
+        <div class="circle-container">
+            <div id="days" class="circle">
+                <span>Gün</span>
+                <span>0</span>
+            </div>
+            <div id="hours" class="circle">
+                <span>Saat</span>
+                <span>0</span>
+            </div>
+            <div id="minutes" class="circle">
+                <span>Dakika</span>
+                <span>0</span>
+            </div>
+            <div id="seconds" class="circle">
+                <span>Saniye</span>
+                <span>0</span>
+            </div>
+        </div>	
+    </div>
+
+    <div class="sidebar">
+        <button class="sidebar-button" onclick="openTab('home')">Ana Sayfa :3</button>
+        <button class="sidebar-button" onclick="openTab('to-do')">Planlarımız :3</button>
+        <button class="sidebar-button">Meow :33</button>
+    </div>	
+
+    <script src="/stuff/timer.js"></script>
+    <script src="/stuff/main.js"></script>
+</body>
 </html>
