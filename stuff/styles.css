@@ -74,26 +74,25 @@ body {
 span:first-child {
     font-weight: bold;         /* Bold for the labels */
     font-size: 1vw;         /* Smaller size for labels */
-    color: #ffd5ed;            /* Fun color for labels */
+    color: #feb2dd;            /* Fun color for labels */
 }
 
 span:last-child {
     font-size: 1.5vw;          /* Smaller size for the numbers */
     color: #ffffff;            /* Fun color for the numbers */
     text-shadow: 
-        1px 1px 0px #ffd5ed,     /* Slight shadow to bottom right */
-        -1px -1px 0px #ffd5ed,   /* Slight shadow to top left */
-        1px -1px 0px #ffd5ed,    /* Slight shadow to top right */
-        -1px 1px 0px #ffd5ed,    /* Slight shadow to bottom left */
-        0px 0px 3px #ffd5ed;      /* Slight blur effect for smoother outline */
+        1px 1px 0px #feb2dd,     /* Slight shadow to bottom right */
+        -1px -1px 0px #feb2dd,   /* Slight shadow to top left */
+        1px -1px 0px #feb2dd,    /* Slight shadow to top right */
+        -1px 1px 0px #feb2dd,    /* Slight shadow to bottom left */
+        0px 0px 3px #feb2dd;      /* Slight blur effect for smoother outline */
 }
 
 .counter-title {
-    color: #ffd5ed;           /* Use the same color as the circle borders */
+    color: #feb2dd;           /* Use the same color as the circle borders */
     font-size: 1.5rem;        /* Smaller size for the title */
     text-align: center;       /* Center the title text */
     margin-bottom: 5px;       /* Space between title and circles */
-    text-shadow: 1px 1px 0px #969696; /* Optional shadow for depth */
     
 }
 
@@ -130,14 +129,14 @@ span:last-child {
 
 .sidebar-button {
     background-color: white;         /* Background color for buttons */
-    color: #ffd5ed;                  /* Fun color for button text */
+    color: #feb2dd;                  /* Fun color for button text */
     border: 4px solid #ffd5ed;       /* Larger border matching text color */
     border-radius: 20px;             /* More rounded corners */
     padding: 10px 20px;              /* Padding for buttons */
     cursor: pointer;                 /* Cursor changes to pointer on hover */
     transition: background-color 0.3s; /* Smooth background change */
     font-family: 'Comic Sans MS', cursive, sans-serif; /* Comic Sans font */
-    text-shadow: 1px 1px 0px #969696; /* Optional shadow for depth */
+    
 }
 
 .sidebar-button:hover {
@@ -162,7 +161,7 @@ span:last-child {
 .love-message p {
     font-size: 1.5rem;                                      /* Adjust font size */
     font-family: 'Comic Sans MS', cursive, sans-serif;     /* Use Comic Sans for fun text */
-    color: #969696;                                          /* White text color */
+    color: #feb2dd;                                          /* White text color */
    
 }
 
