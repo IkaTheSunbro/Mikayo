@@ -9,7 +9,7 @@ body {
 .heart {
     position: absolute;
     top: -20px;
-    color: #ffffff;
+    color: #ed66ac;
     animation: raining 5s linear infinite;
     z-index: -1;
 }
