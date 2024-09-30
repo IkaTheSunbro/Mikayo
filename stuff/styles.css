@@ -1,0 +1,81 @@
+body { 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.heart {
+    position: absolute;
+    top: -20px;
+    color: #ffd5ed;
+    animation: raining 5s linear infinite;
+    z-index: -1;
+}
+
+.heart::before {
+    content: '\f004';
+    font-family: fontAwesome;
+    text-shadow: 0 0 5px #ffd5ed, 0 0 20px #ffd5ed, 0 0 50px #ffd5ed;
+}
+
+@keyframes raining{
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(100vh) rotate(360deg);
+        opacity: 0.2;
+    }
+}
+
+.counter {
+    display: flex;            /* Use flexbox for circles */
+    justify-content: center;  /* Center circles */
+    align-items: center;      /* Center content inside circles */
+}
+
+.circle {
+    width: 100px;                /* Width of the circles */
+    height: 100px;               /* Height of the circles */
+    border-radius: 50%;          /* Make them circular */
+    background-color: white;     /* Set background to white */
+    border: 5px solid #ffd6ea;   /* Pinkish border color (you can adjust this color) */
+    box-shadow: 0 4px 15px rgba(252, 223, 255, 0.352); /* Shadow for depth */
+    margin: 10px;                /* Space between circles */
+    display: flex;               /* Use flexbox for circle content */
+    flex-direction: column;      /* Stack content vertically */
+    justify-content: center;      /* Center text vertically */
+    align-items: center;          /* Center text horizontally */
+    font-size: 24px;             /* Font size for the numbers */
+    text-align: center;           /* Center text */
+    transition: transform 0.2s;   /* Smooth scaling effect */
+}
+
+
+.circle:hover {
+    transform: scale(1.1);   /* Scale up on hover for fun */
+}
+
+span:first-child {
+    font-weight: bold;       /* Bold for the labels */
+    font-size: 18px;         /* Slightly smaller size for labels */
+    color: #666666;          /* Fun color for labels */
+}
+
+span:last-child {
+    font-size: 32px;         /* Bigger size for the numbers */
+    color: #ffffff;          /* Fun color for the numbers */
+    text-shadow: 
+        1px 1px 0px #ffb5d9,   /* Slight shadow to bottom right */
+        -1px -1px 0px #ffb5d9, /* Slight shadow to top left */
+        1px -1px 0px #ffb5d9,  /* Slight shadow to top right */
+        -1px 1px 0px #ffb5d9,  /* Slight shadow to bottom left */
+        0px 0px 3px #ffb5d9;    /* Slight blur effect for smoother outline */
+}
