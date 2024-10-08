@@ -342,3 +342,76 @@ span:last-child {
     text-align: center;
     margin-bottom: 5px;
 }
+
+/* Password screen styles */
+.password-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 0.5s ease;
+}
+
+.password-box {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.password-box h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.password-box input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.password-box button {
+    background-color: #ff007f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.password-box button:hover {
+    background-color: #d9006f;
+}
+
+.password-box input:focus {
+    outline: none;
+    border-color: #ff007f;
+}
+
+/* Content hidden by default */
+.content {
+    display: none;
+}
+
+/* When password is correct, show content */
+.show-content .content {
+    display: block;
+}
+
+.show-content .password-screen {
+    opacity: 0;
+    pointer-events: none;
+}
