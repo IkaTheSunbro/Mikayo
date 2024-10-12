@@ -5,6 +5,6 @@ function checkPassword() {
     if (inputPassword === correctPassword) {
         document.body.classList.add('show-content');
     } else {
-        alert('Skill Issue');
+        alert('Ağır Skill Issue');
     }
 }
