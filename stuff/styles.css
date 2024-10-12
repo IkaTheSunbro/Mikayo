@@ -415,3 +415,5 @@ span:last-child {
     opacity: 0;
     pointer-events: none;
 }
+
+a { color: inherit; } 
