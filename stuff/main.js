@@ -11,3 +11,7 @@ function openTab(tabName) {
         selectedTab.style.display = 'block'; // Show the selected tab
     }
 }
+
+function redirect(){
+    window.location.replace("mikayo.html");
+}

@@ -209,7 +209,7 @@ span:last-child {
     position: absolute;
     width: 100px;
     height: 100px;
-    bottom: -90vw;
+    bottom: -125vw;
     right: 0vw;
     transform: rotateY(180deg);
     z-index: 100;
@@ -417,3 +417,85 @@ span:last-child {
 }
 
 a { color: inherit; } 
+
+.message-content {
+    background: none;               /* Remove background color */
+    border: none;                   /* Remove any border */
+    box-shadow: none;               /* Remove any shadow */
+    padding: 0;                     /* Remove extra padding if any */
+    margin: 0 auto;                 /* Center the content without extra margins */
+    margin-top: 20px;               /* Add space between the dropdown and the content */
+    max-width: 90%;                 /* Make sure the content doesn't stretch too wide */
+}
+
+.messages-header {
+    text-align: center;             /* Ensure both header and dropdown are centered */
+    margin-bottom: 10px;            /* Space between the header and dropdown */
+}
+
+.messages-header select {
+    margin-top: 10px;               /* Space between the header and dropdown */
+    margin-bottom: 20px;            /* Space between the dropdown and the content */
+    padding: 10px;                  /* Keep padding for dropdown */
+    font-size: 16px;                /* Adjust font size */
+    border: 2px solid #ffd5ed;      /* Match border color */
+    border-radius: 10px;            /* Rounded corners */
+    background-color: #ffffff;      /* White background */
+    color: #feb2dd;                 /* Pinkish text */
+    cursor: pointer;               /* Pointer cursor */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.message-content {
+    margin-top: 20px;          /* Add space between the dropdown and the content */
+}
+
+
+.messages-header h2 {
+    margin: 0;                      /* Remove default margin */
+    font-size: 1.8rem;              /* Adjust title size */
+    color: #feb2dd;                 /* Match the theme */
+}
+
+#messageDropdown {
+    margin: 0;                      /* Remove extra margins */
+    padding: 10px;                  /* Keep padding for dropdown */
+    font-size: 16px;                /* Adjust font size */
+    border: 2px solid #ffd5ed;      /* Match border color */
+    border-radius: 10px;            /* Rounded corners */
+    background-color: #ffffff;      /* White background */
+    color: #feb2dd;                 /* Pinkish text */
+    cursor: pointer;               /* Pointer cursor */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+
+.message-content p {
+    font-size: 1.2rem;              /* Slightly smaller for readability */
+    margin-bottom: 15px;            /* Space between text and image */
+    color: #feb2dd;                 /* Match the pinkish theme */
+}
+
+#mikayo-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000; /* Background color of the 3D world */
+    z-index: -1; /* Ensures the 3D world is behind other UI elements */
+}
+
+.tab {
+    transition: opacity 1s ease; /* Smooth fade in/out transition */
+}
+
+.tab.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.tab.inactive {
+    opacity: 0;
+    pointer-events: none;
+}
