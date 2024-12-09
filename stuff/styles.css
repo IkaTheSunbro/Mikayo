@@ -32,116 +32,116 @@ body {
 }
 
 .counter {
-    position: fixed;                /* Fix position */
-    top: 10px;                     /* Distance from the top */
-    right: 10px;                   /* Distance from the right */
-    display: flex;                 /* Use flexbox for overall layout */
-    flex-direction: column;        /* Stack title and circles container vertically */
-    align-items: center;           /* Center align all items */
+    position: fixed;             
+    top: 10px;                   
+    right: 10px;                 
+    display: flex;               
+    flex-direction: column;      
+    align-items: center;         
 }
 
 .circle-container {
-    display: flex;            /* Use flexbox for circles */
-    justify-content: center;  /* Center circles */
-    align-items: center;      /* Center content inside circles */
-    flex-wrap: nowrap;        /* Prevent circles from wrapping */
-    margin-top: 5px;         /* Space between title and circles */
+    display: flex;           
+    justify-content: center; 
+    align-items: center;     
+    flex-wrap: nowrap;       
+    margin-top: 5px;         
 }
 
 .circle {
-    width: 12vw;               /* Use 12% of viewport width for smaller circles */
-    height: 12vw;              /* Maintain circular shape */
-    max-width: 80px;           /* Limit the maximum size */
-    max-height: 80px;          /* Limit the maximum height */
-    border-radius: 50%;        /* Make them circular */
-    background-color: white;   /* Set background to white */
-    border: 5px solid #ffd5ed; /* Pinkish border color */
-    box-shadow: 0 4px 15px #ffd5ed; /* Shadow for depth */
-    margin: 5px;               /* Reduced space between circles */
-    display: flex;             /* Use flexbox for circle content */
-    flex-direction: column;    /* Stack content vertically */
-    justify-content: center;    /* Center text vertically */
-    align-items: center;        /* Center text horizontally */
-    text-align: center;         /* Center text */
-    transition: transform 0.2s; /* Smooth scaling effect */
+    width: 12vw;              
+    height: 12vw;             
+    max-width: 80px;          
+    max-height: 80px;         
+    border-radius: 50%;       
+    background-color: white;   
+    border: 5px solid #ffd5ed; 
+    box-shadow: 0 4px 15px #ffd5ed; 
+    margin: 5px;               
+    display: flex;             
+    flex-direction: column;    
+    justify-content: center;   
+    align-items: center;       
+    text-align: center;        
+    transition: transform 0.2s; 
     
 }
 
 .circle:hover {
-    transform: scale(1.1);     /* Scale up on hover for fun */
+    transform: scale(1.1);    
 }
 
 span:first-child {
-    font-weight: bold;         /* Bold for the labels */
-    font-size: 1vw;         /* Smaller size for labels */
-    color: #feb2dd;            /* Fun color for labels */
+    font-weight: bold;     
+    font-size: 1vw;        
+    color: #feb2dd;       
 }
 
 span:last-child {
-    font-size: 1.5vw;          /* Smaller size for the numbers */
-    color: #ffffff;            /* Fun color for the numbers */
+    font-size: 1.5vw;      
+    color: #ffffff;       
     text-shadow: 
-        1px 1px 0px #feb2dd,     /* Slight shadow to bottom right */
-        -1px -1px 0px #feb2dd,   /* Slight shadow to top left */
-        1px -1px 0px #feb2dd,    /* Slight shadow to top right */
-        -1px 1px 0px #feb2dd,    /* Slight shadow to bottom left */
-        0px 0px 3px #feb2dd;      /* Slight blur effect for smoother outline */
+        1px 1px 0px #feb2dd,   
+        -1px -1px 0px #feb2dd, 
+        1px -1px 0px #feb2dd,  
+        -1px 1px 0px #feb2dd,  
+        0px 0px 3px #feb2dd;   
 }
 
 .counter-title {
-    color: #feb2dd;           /* Use the same color as the circle borders */
-    font-size: 1.5rem;        /* Smaller size for the title */
-    text-align: center;       /* Center the title text */
-    margin-bottom: 5px;       /* Space between title and circles */
+    color: #feb2dd;        
+    font-size: 1.5rem;      
+    text-align: center;     
+    margin-bottom: 5px;     
     
 }
 
-/* Media queries for further adjustments on smaller screens */
+
 @media (max-width: 600px) {
     .circle {
-        width: 18vw;            /* Make circles larger on small screens */
-        height: 18vw;           /* Maintain circular shape */
-        max-width: 70px;        /* Limit the maximum size on small screens */
-        max-height: 70px;       /* Limit the maximum height on small screens */
+        width: 18vw;          
+        height: 18vw;          
+        max-width: 70px;       
+        max-height: 70px;      
     }
 
     span:first-child {
-        font-size: 4vw;          /* Adjust label size */
+        font-size: 4vw;        
     }
 
     span:last-child {
-        font-size: 4vw;          /* Adjust number size */
+        font-size: 4vw;        
     }
 
 }
 
 .sidebar {
-    position: fixed;               /* Fix position */
-    bottom: 10px;                  /* Position from the bottom */
-    left: 10px;                    /* Adjust distance from the left */
-    background-color: transparent;  /* Make sidebar background transparent */
-    padding: 5px;                  /* Padding inside the sidebar */
-    border-radius: 10px;           /* Rounded corners for the sidebar */
-    display: flex;                 /* Use flexbox for button alignment */
-    flex-direction: column;        /* Stack buttons vertically */
-    gap: 15px;                     /* Space between buttons */
+    position: fixed;              
+    bottom: 10px;                 
+    left: 10px;                   
+    background-color: transparent;
+    padding: 5px;                 
+    border-radius: 10px;          
+    display: flex;                
+    flex-direction: column;       
+    gap: 15px;                    
 }
 
 .sidebar-button {
-    background-color: white;         /* Background color for buttons */
-    color: #feb2dd;                  /* Fun color for button text */
-    border: 4px solid #ffd5ed;       /* Larger border matching text color */
-    border-radius: 20px;             /* More rounded corners */
-    padding: 10px 20px;              /* Padding for buttons */
-    cursor: pointer;                 /* Cursor changes to pointer on hover */
-    transition: background-color 0.3s; /* Smooth background change */
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Comic Sans font */
+    background-color: white;      
+    color: #feb2dd;               
+    border: 4px solid #ffd5ed;    
+    border-radius: 20px;           
+    padding: 10px 20px;            
+    cursor: pointer;               
+    transition: background-color 0.3s; 
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
     
 }
 
 .sidebar-button:hover {
-    background-color: #ffd5ed; /* Change background on hover */
-    color: white;              /* Change text color on hover */
+    background-color: #ffd5ed; 
+    color: white;              
 }
 
 .love-message {
@@ -150,59 +150,59 @@ span:last-child {
     border-radius: 15px;
     padding: 20px;
     text-align: center;
-    width: 600px;            /* Fixed width */
-    max-width: 100%;         /* Responsive on smaller screens */
+    width: 600px;            
+    max-width: 100%;         
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     color: #feb2dd;
-    margin: 20px auto;       /* Center the love-message horizontally */
-    display: flex;           /* Flexbox to ensure proper centering */
-    justify-content: center; /* Center the content horizontally */
-    align-items: center;     /* Center the content vertically */
-    margin-top: 15vh;       /* Adjust this for vertical spacing from the top */
+    margin: 20px auto;       
+    display: flex;          
+    justify-content: center;
+    align-items: center;    
+    margin-top: 15vh;       
 }
 
 
 .love-message p {
-    font-size: 1.5rem;                                      /* Adjust font size */
-    font-family: 'Comic Sans MS', cursive, sans-serif;     /* Use Comic Sans for fun text */
-    color: #feb2dd;                                          /* White text color */
+    font-size: 1.5rem;                                   
+    font-family: 'Comic Sans MS', cursive, sans-serif;   
+    color: #feb2dd;                                     
    
 }
 
 .love-message ul {
-    font-size: 1.5rem;                                      /* Adjust font size */
-    font-family: 'Comic Sans MS', cursive, sans-serif;     /* Use Comic Sans for fun text */
-    color: #feb2dd;                                          /* White text color */
+    font-size: 1.5rem;                                   
+    font-family: 'Comic Sans MS', cursive, sans-serif;   
+    color: #feb2dd;                                     
    
 }
 
 .dummy-content {
-    height: 1500px;                  /* Make it tall enough to scroll */
+    height: 1500px;                  
 }
 
 .text-image-container {
-    position: relative;      /* Container for the GIF and text */
-    width: 800px;            /* Set a fixed width for the container */
-    max-width: 100%;         /* Make it responsive */
-    margin: 15vh auto;       /* Add top margin here to create space from the top */
-    text-align: center;      /* Ensure contents are centered */
+    position: relative;   
+    width: 800px;         
+    max-width: 100%;      
+    margin: 15vh auto;     
+    text-align: center;   
 }
 
 .overlay-image {
-    display: block;          /* Ensure it's treated like a block element */
-    margin: 2vh auto;         /* Center the GIF horizontally */
-    max-width: 100%;        /* Make the GIF responsive */
-    width: 100%;            /* GIF fills the container */
-    height: auto;           /* Maintain the aspect ratio */
-    opacity: 0.7;           /* Slight transparency */
+    display: block;       
+    margin: 2vh auto;     
+    max-width: 100%;      
+    width: 100%;          
+    height: auto;         
+    opacity: 0.7;         
 }
 
 .text-image-container:first-child .overlay-image {
-    margin-top: 10vh;       /* Adjust this value to increase space from the top */
+    margin-top: 10vh;       
 }
 
 .text-image-container .overlay-image {
-    margin-bottom: 3vh;     /* Keep this value small for space between GIFs */
+    margin-bottom: 3vh;    
 }
 
 #mikayo-image{
@@ -216,12 +216,12 @@ span:last-child {
 }
 
 .tab {
-    background-color: transparent; /* Make background transparent */
-    border: none;                 /* Remove any borders */
-    padding: 20px;                /* Keep padding for spacing */
-    margin: 20px auto;            /* Center the tab */
-    max-width: 600px;             /* Set a maximum width */
-    color: #feb2dd;               /* Ensure text is still visible */
+    background-color: transparent;
+    border: none;                 
+    padding: 20px;                
+    margin: 20px auto;            
+    max-width: 600px;             
+    color: #feb2dd;              
 }
 
 .to-do {
@@ -230,32 +230,32 @@ span:last-child {
     border-radius: 15px;
     padding: 20px;
     text-align: center;
-    width: 600px;            /* Fixed width */
-    max-width: 100%;         /* Responsive on smaller screens */
+    width: 600px;            
+    max-width: 100%;         
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     color: #feb2dd;
-    margin: 20px auto;       /* Center the love-message horizontally */
-    display: flex;           /* Flexbox to ensure proper centering */
-    justify-content: center; /* Center the content horizontally */
-    align-items: center;     /* Center the content vertically */
-    margin-top: 15vh;       /* Adjust this for vertical spacing from the top */
+    margin: 20px auto;      
+    display: flex;          
+    justify-content: center;
+    align-items: center;    
+    margin-top: 15vh;       
 }
 
 .to-do p {
-    font-size: 3.5rem;                                      /* Adjust font size */
-    font-family: 'Comic Sans MS', cursive, sans-serif;     /* Use Comic Sans for fun text */
-    color: #feb2dd;                                          /* White text color */
+    font-size: 3.5rem;                                    
+    font-family: 'Comic Sans MS', cursive, sans-serif;    
+    color: #feb2dd;                                      
 }
 
 .to-do ul {
-    font-size: 1.5rem;                                      /* Adjust font size */
-    font-family: 'Comic Sans MS', cursive, sans-serif;     /* Use Comic Sans for fun text */
-    color: #feb2dd;                                          /* White text color */
+    font-size: 1.5rem;                                    
+    font-family: 'Comic Sans MS', cursive, sans-serif;    
+    color: #feb2dd;                                      
 }
 
 .to-do li {
-    font-size: 1.5rem;                                      /* Adjust font size */
-    font-family: 'Comic Sans MS', cursive, sans-serif;     /* Use Comic Sans for fun text */
+    font-size: 1.5rem;                                    
+    font-family: 'Comic Sans MS', cursive, sans-serif;    
     color: #feb2dd;    
 }
 
@@ -297,12 +297,12 @@ span:last-child {
 }
 
 .countdown {
-    position: fixed;            /* Fix the position */
-    top: 15px;                  /* Distance from the top */
-    left: 10px;                 /* Distance from the left */
-    display: flex;              /* Flexbox for layout */
-    flex-direction: column;     /* Stack title and circles vertically */
-    align-items: center;        /* Center items horizontally */
+    position: fixed;            
+    top: 15px;                  
+    left: 10px;                 
+    display: flex;              
+    flex-direction: column;     
+    align-items: center;        
 }
 
 .circle-container {
@@ -314,7 +314,7 @@ span:last-child {
 }
 
 .circle {
-    /* Same styles as your existing timer circles */
+
     width: 10vw;
     height: 10vw;
     max-width: 80px;
@@ -343,7 +343,7 @@ span:last-child {
     margin-bottom: 5px;
 }
 
-/* Password screen styles */
+
 .password-screen {
     position: fixed;
     top: 0;
@@ -401,12 +401,12 @@ span:last-child {
     border-color: #ff007f;
 }
 
-/* Content hidden by default */
+
 .content {
     display: none;
 }
 
-/* When password is correct, show content */
+
 .show-content .content {
     display: block;
 }
@@ -419,61 +419,61 @@ span:last-child {
 a { color: inherit; } 
 
 .message-content {
-    background: none;               /* Remove background color */
-    border: none;                   /* Remove any border */
-    box-shadow: none;               /* Remove any shadow */
-    padding: 0;                     /* Remove extra padding if any */
-    margin: 0 auto;                 /* Center the content without extra margins */
-    margin-top: 20px;               /* Add space between the dropdown and the content */
-    max-width: 90%;                 /* Make sure the content doesn't stretch too wide */
+    background: none;             
+    border: none;                 
+    box-shadow: none;             
+    padding: 0;                   
+    margin: 0 auto;               
+    margin-top: 20px;             
+    max-width: 90%;               
 }
 
 .messages-header {
-    text-align: center;             /* Ensure both header and dropdown are centered */
-    margin-bottom: 10px;            /* Space between the header and dropdown */
+    text-align: center;           
+    margin-bottom: 10px;          
 }
 
 .messages-header select {
-    margin-top: 10px;               /* Space between the header and dropdown */
-    margin-bottom: 20px;            /* Space between the dropdown and the content */
-    padding: 10px;                  /* Keep padding for dropdown */
-    font-size: 16px;                /* Adjust font size */
-    border: 2px solid #ffd5ed;      /* Match border color */
-    border-radius: 10px;            /* Rounded corners */
-    background-color: #ffffff;      /* White background */
-    color: #feb2dd;                 /* Pinkish text */
-    cursor: pointer;               /* Pointer cursor */
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-top: 10px;             
+    margin-bottom: 20px;          
+    padding: 10px;                
+    font-size: 16px;              
+    border: 2px solid #ffd5ed;   
+    border-radius: 10px;          
+    background-color: #ffffff;   
+    color: #feb2dd;              
+    cursor: pointer;              
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); 
 }
 
 .message-content {
-    margin-top: 20px;          /* Add space between the dropdown and the content */
+    margin-top: 20px;         
 }
 
 
 .messages-header h2 {
-    margin: 0;                      /* Remove default margin */
-    font-size: 1.8rem;              /* Adjust title size */
-    color: #feb2dd;                 /* Match the theme */
+    margin: 0;                      
+    font-size: 1.8rem;              
+    color: #feb2dd;                
 }
 
 #messageDropdown {
-    margin: 0;                      /* Remove extra margins */
-    padding: 10px;                  /* Keep padding for dropdown */
-    font-size: 16px;                /* Adjust font size */
-    border: 2px solid #ffd5ed;      /* Match border color */
-    border-radius: 10px;            /* Rounded corners */
-    background-color: #ffffff;      /* White background */
-    color: #feb2dd;                 /* Pinkish text */
-    cursor: pointer;               /* Pointer cursor */
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 0;                     
+    padding: 10px;                 
+    font-size: 16px;               
+    border: 2px solid #ffd5ed;     
+    border-radius: 10px;           
+    background-color: #ffffff;     
+    color: #feb2dd;               
+    cursor: pointer;               
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 
 .message-content p {
-    font-size: 1.2rem;              /* Slightly smaller for readability */
-    margin-bottom: 15px;            /* Space between text and image */
-    color: #feb2dd;                 /* Match the pinkish theme */
+    font-size: 1.2rem;              
+    margin-bottom: 15px;            
+    color: #feb2dd;                
 }
 
 #mikayo-container {
@@ -482,12 +482,12 @@ a { color: inherit; }
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #000000; /* Background color of the 3D world */
-    z-index: -1; /* Ensures the 3D world is behind other UI elements */
+    background-color: #000000; 
+    z-index: -1; 
 }
 
 .tab {
-    transition: opacity 1s ease; /* Smooth fade in/out transition */
+    transition: opacity 1s ease; 
 }
 
 .tab.active {
