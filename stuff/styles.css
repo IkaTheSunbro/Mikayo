@@ -135,7 +135,7 @@ span:last-child {
     padding: 10px 20px;            
     cursor: pointer;               
     transition: background-color 0.3s; 
-    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    font-family: 'Comic Sans MS', Arial, Helvetica; 
     
 }
 
@@ -164,14 +164,14 @@ span:last-child {
 
 .love-message p {
     font-size: 1.5rem;                                   
-    font-family: 'Comic Sans MS', cursive, sans-serif;   
+    font-family: 'Comic Sans MS', Arial, Helvetica;  
     color: #feb2dd;                                     
    
 }
 
 .love-message ul {
     font-size: 1.5rem;                                   
-    font-family: 'Comic Sans MS', cursive, sans-serif;   
+    font-family: 'Comic Sans MS', Arial, Helvetica;   
     color: #feb2dd;                                     
    
 }
@@ -243,19 +243,19 @@ span:last-child {
 
 .to-do p {
     font-size: 3.5rem;                                    
-    font-family: 'Comic Sans MS', cursive, sans-serif;    
+    font-family: 'Comic Sans MS', Arial, Helvetica;    
     color: #feb2dd;                                      
 }
 
 .to-do ul {
     font-size: 1.5rem;                                    
-    font-family: 'Comic Sans MS', cursive, sans-serif;    
+    font-family: 'Comic Sans MS', Arial, Helvetica;    
     color: #feb2dd;                                      
 }
 
 .to-do li {
     font-size: 1.5rem;                                    
-    font-family: 'Comic Sans MS', cursive, sans-serif;    
+    font-family: 'Comic Sans MS', Arial, Helvetica;
     color: #feb2dd;    
 }
 
@@ -291,7 +291,7 @@ span:last-child {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Comic Sans MS', Arial, Helvetica;
     font-size: 1.1rem;
     color: #feb2dd;
 }
