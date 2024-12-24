@@ -25,6 +25,7 @@ body {
     text-shadow: 0 0 5px #ffd5ed, 0 0 20px #ffd5ed, 0 0 50px #ffd5ed;
 }
 
+
 @keyframes raining{
     0%{
         transform: translateY(0) rotate(0deg);
@@ -228,7 +229,7 @@ span:last-child {
     position: absolute;
     width: 100px;
     height: 100px;
-    bottom: -125vw;
+    bottom: -100vw;
     right: 0vw;
     transform: rotateY(180deg);
     z-index: 100;

@@ -12,6 +12,10 @@ function openTab(tabName) {
     }
 }
 
-function redirect(){
+function redirectMika(){
     window.location.replace("mikayo.html");
+}
+
+function redirectIndex(){
+    window.location.replace("index.html");
 }
