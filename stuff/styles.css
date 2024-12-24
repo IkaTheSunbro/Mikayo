@@ -1,7 +1,12 @@
 body {
     margin: 0;
     background-color: #ffffff;
-    font-family: "Comic Neue", cursive;
+    font-family: "Sour Gummy", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
     overflow-y: scroll;
     height: auto;
 }
@@ -135,8 +140,12 @@ span:last-child {
     padding: 10px 20px;            
     cursor: pointer;               
     transition: background-color 0.3s; 
-    font-family: "Comic Neue", cursive;
-    
+    font-family: "Sour Gummy", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .sidebar-button:hover {
@@ -164,14 +173,24 @@ span:last-child {
 
 .love-message p {
     font-size: 1.5rem;                                   
-    font-family: "Comic Neue", cursive;
+    font-family: "Sour Gummy", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
     color: #feb2dd;                                     
    
 }
 
 .love-message ul {
     font-size: 1.5rem;                                   
-    font-family: "Comic Neue", cursive;
+    font-family: "Sour Gummy", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
     color: #feb2dd;                                     
    
 }
@@ -243,19 +262,34 @@ span:last-child {
 
 .to-do p {
     font-size: 3.5rem;                                    
-    font-family: "Comic Neue", cursive;
+    font-family: "Sour Gummy", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
     color: #feb2dd;                                      
 }
 
 .to-do ul {
     font-size: 1.5rem;                                    
-    font-family: "Comic Neue", cursive;  
+    font-family: "Sour Gummy", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
     color: #feb2dd;                                      
 }
 
 .to-do li {
     font-size: 1.5rem;                                    
-    font-family: "Comic Neue", cursive;
+    font-family: "Sour Gummy", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
     color: #feb2dd;    
 }
 
@@ -291,7 +325,12 @@ span:last-child {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    font-family: "Comic Neue", cursive;
+    font-family: "Sour Gummy", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
     font-size: 1.1rem;
     color: #feb2dd;
 }
@@ -499,3 +538,9 @@ a { color: inherit; }
     opacity: 0;
     pointer-events: none;
 }
+
+.comic-neue-bold {
+    font-family: "Comic Neue", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
