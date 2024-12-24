@@ -66,7 +66,51 @@ const messages = {
 				
 			</p>
     `,
-    // Add more messages here
+    month3: `<div class="text-image-container">
+            <img src="media/100daysyippie.gif" alt="Decorative GIF" class="overlay-image">
+            <img src="media/burning.gif" alt="Decorative GIF" class="overlay-image">
+        </div>
+
+        <div class="love-message">
+            <p class="love-text">
+				AŞKIMMMM 3. AYDÖNÜMÜMÜZ KUTLU OLSUNNNNRAHHHH <33333 10 GÜN SONRA DA 100. 
+                GÜNÜMÜZ OLACAK ONDAN DOLAYI HANGİSİNİ KUTLASAK BİLMİYORUM BİLE HELP <333 
+                NEREDEN BAŞLARSAM BAŞLAYAYIM SENİN HAKKINDA YAZABİLECEKLERİMİN HİÇBİR SONU 
+                YOK CİDDEN MELEĞİM :33 HAYATIMA GİRDİĞİN GÜNDEN BERİ ADETA PERİ MASALINDA 
+                YAŞIYORUM :333 SENLE BERABER OLDUĞUM HER BİR AN BENİM İÇİN O KADAR KIYMETLİ 
+                BİR HEDİYE Kİ <3333 dünyadaki bütün herkese manyak koymuşum btw hiç kimsenin 
+                denizi yok zaaa copelamaya devam etsinler... ŞU AN BUNU YAZARKEN EŞ ZAMANLI 
+                OLARAK TELEFONUMDAN SENİN RESİMLERİNE BAKIP KAFAYI YİYORUM O KADAR ŞEKERSİN 
+                Kİ SENİ BÖYLE KOLLARIMIN ARASINDA SIMSIKI TUTUP SAATLERCE UCUCUCUCUCUCUCUUCUUCUCUCU 
+                DIYE SEVMEM LAZIM :33333 Of ya hemen seneler geçsin de beraber böyle ufak bir 
+                evimiz olsun sonra hiç senden ayrı kalmayayım istiyorum sürekli :3 O kadar 
+                tatlı olurdu ki her şey hayal edince yerimde duramıyorum mutluluktan <3 
+                Sürekli sana sımsıkı sarılırdım (sürekli senle uğraşırdım da meow :3) Sonra 
+                sen bana kızdığında da üzerine atlayıp seni öpücük yağmuruna tutardım :3333 
+                ASKIM BRB ACILEN YASTIĞIMA SARILMAM LAZIMOK GELDIM UZGUNUM... Hiç doyamıyorum 
+                sana gerçekten bir gün cidden yanımda japon yapıştırıcısıyla falan gelicem 
+                yanına sonra sana musallat olucam meow :33 Aşkım bu arada cidden her şey adına 
+                teşekkür ederim hehe :33 Bana hayatımın en güzel 3 ayını yaşattın ve her geçen 
+                gün daha da güzellerini yaşatıyorsun <333 Her anımı seninle bu şekilde paylaşıp 
+                en mutlu günlerimde de yanımda olmanı istiyorum :3 Aynı şekilde senin de her 
+                mutluluğunu paylaşıp çoğaltmayı her üzüntünde de (hiç üzülme istiyorum tabi 
+                orası ayrı :( ) senin yanında olmak istiyorum biricik Denizim benim <333 
+                AAAGHHHGHFHH BU ARADA SENI GOTURMEK ISTEDIGIM BIR YER VAR UMARIM SEVERSIN 
+                HEHE :333 Doğum günün için de bir sürü şey düşündüm meowww :3 Sen bana hayatımın 
+                en ama en güzel doğumgününü yaşattın ben de sana aynı şekilde yaşatmak istiyorum 
+                sevgilim :333 OFFF COK SEVIYORUM SENI YAA CIDDEN BIRAKSAN SUSMADAN SAATLERCE 
+                SADECE SENI NE KADAR COK SEVDIGIMI SOYLEYEN YAP MAKINESINE DONUSURUM... DENİZİM 
+                BENİMMM BERABER DAHA NİCE AYDÖNÜMLERİMİZİ VE YILDÖNÜMLERİMİZİ KUTLAYACAĞIZ 
+                BÖYLE :33 O KADAR HEYECANLIYIM Kİ BUNDAN YILLAR YILLAR SONRASI İÇİN <333 BENİM 
+                HER ŞEYİMSİN CİDDEN BÜTÜN KALBİM BÜTÜN SEVGİM SANA AİT SADECE <333333
+                <br><br>    
+                PS. SENI COK SEVIYORUM
+                <br><br>  
+                PSPSPSPS. CIDDILI COK AMA COK SEVIYORUM
+                <br><br>  
+                PSPSPSPSPSPSPSPSPS. MEOWW :33
+			</p>		
+        </div>`
 };
 
 // Function to display the selected message
