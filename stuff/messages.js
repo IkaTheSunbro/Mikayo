@@ -113,9 +113,9 @@ const messages = {
         </div>`,
 
         birthday18: `<div class="text-image-container">
-            <img src="media/BDAYY.gif" alt="Decorative GIF" class="overlay-image">
-            <img src="media/burning.gif" alt="Decorative GIF" class="overlay-image">
-        </div>
+                        <img src="media/BDAYY.gif" alt="Decorative GIF" class="overlay-image">
+                        <img src="media/burning.gif" alt="Decorative GIF" class="overlay-image">
+                    </div>
 
         <div class="love-message">
             <p class="love-text">
@@ -180,7 +180,7 @@ const messages = {
 function displayMessage() {
     const selectedMonth = document.getElementById('messageDropdown').value;
     const messageDisplay = document.getElementById('messageDisplay');
-    messageDisplay.innerHTML = messages[selectedMonth] || "<p>Message not found. 💌</p>";
+    messageDisplay.innerHTML = messages[selectedMonth] || "<p>mesaj bulunmuyo :((( hüü 💌</p>";
 }
 
 // Automatically show the first message on page load
