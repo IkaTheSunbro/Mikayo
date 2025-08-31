@@ -110,6 +110,69 @@ const messages = {
                 <br><br>  
                 PSPSPSPSPSPSPSPSPS. MEOWW :33
 			</p>		
+        </div>`,
+
+        birthday18: `<div class="text-image-container">
+            <img src="media/BDAYY.gif" alt="Decorative GIF" class="overlay-image">
+            <img src="media/burning.gif" alt="Decorative GIF" class="overlay-image">
+        </div>
+
+        <div class="love-message">
+            <p class="love-text">
+				DENİZİMMMM HIII HI HI HII!!! 
+                18. DOĞUM GÜNÜN KUTLU OLSUN BİRİCİK 
+                ŞEKERİM BENİMMM <333 AGHHHHH SENİNLE 
+                BU ÖZEL GÜNÜ BERABER PAYLAŞACAĞIM İÇİN 
+                O KADAR MUTLUYUM Kİ GERÇEKTENNN <333 
+                NEREDEN BAŞLASAM BİLMİYORUM BİLE SENİN 
+                HAKKINDA BURAYA DESTAN BİLE YAZABİLİRİM 
+                ELİMDE OLSA... HAYATIMA ADETA GÖKYÜZÜNDEN 
+                SÜZÜLEREK İNEN BİR MELEK GİBİ BİRDEN 
+                GİRDİN VE HER BİR GÜNÜMÜ O TATLI 
+                SÖZLERİNLE, O GÜZEL GÖZLERİNLE GÜZELLEŞTİRİP 
+                DURDUN :33 SON 4 AYDIR YAŞADIĞIM MUTLULUĞU 
+                TARİF EDEBİLMEMİN HİÇBİR YOLU YOK GERÇEKTEN 
+                ŞU KOSKOCAMAN DÜNYADA BU KADAR FAZLA EŞSİZ 
+                ÜZEL DUYGUYU AYNI ANDA YAŞAYAN BİR BEN 
+                VARIMDIR HERHALDE SADECE <33 TANIŞTIĞIMIZ 
+                GÜNDEN BERİ BANA BU HOŞ DUYGULARI 
+                YAŞATTIĞIN VE HER GEÇEN GÜN DAHA DA 
+                FAZLASINI YAŞATMAYA DEVAM ETTİĞİN İÇİN 
+                ÇOOOKKK TEŞEKKÜR EDERİM MELEĞİMMM!!!! 
+                ŞU AN YANIMDA OLSAN ÜZERİNE ATLAMIŞTIM 
+                BTW... O YÜZDEN O ŞEKİLDE VARSAY OKURKEN 
+                PLS :3 AGHFHHH O KADAR FAZLA ŞEY PLANLADIM 
+                Kİ DOĞUM GÜNÜN İÇİN YAPTIĞIM LİSTEYE 
+                BAKMADAN BÜTÜN YAPACAKLARIMIZI HATIRLAYAMIYORUM 
+                BİLE İMDAT UMARIM ÇOK SEVERSİN <33 HER ŞEYİN 
+                EN İYİSİNİ HAK EDİYORSUN GERÇEKTEN VE SENİ 
+                BU ÖZEL GÜNÜNDE DE MUTLU ETMEYİ ÇOK İSTİYORUM 
+                :333 SEN HER DAİM YANIMDA OLSAN DA OLMASAN 
+                DA BENİ GÜLÜMSETMEYİ BAŞARIYORSUN VE BÜTÜN BANA 
+                YAPTIKLARINDAN SONRA UMARIM BEN DE SENİ MUTLU 
+                EDEBİLİRİM HEHE :3 önemli duyuru: şu an bunu 
+                yazarken yastığımı ısırıyorum.. önemli duyuru 
+                bitti askim. UMARIM HEMEN BULUŞURUZ DA 
+                ÜZERİNE ATLARIM ÇOK AMA ÇOK ÖZLEDİM SENİ :33 
+                DOĞUM GÜNÜN TEKRARDAN KUTLU OLSUN HAYATIMMM!! 
+                bundan sonraki her doğum gününü de böyle kutlarız 
+                umarım hehe gelecekte çok daha güzellerini de 
+                yaparız meowww :3 HER SENE SENİ APAYRI YERLERE 
+                GÖTÜRÜCEM BTW (aynısını ben de bekliom btw şımart 
+                sen de beni biraz bir zahmet :333) UMARIM 
+                HEDİYELERİMİ DE BEĞENİRSİN SEVGİLİMMM!!! HEPSİNE 
+                BAYA UĞRAŞTIM VE BUNU YAZDIKTAN SONRA DA EKSTRADAN 
+                BİR ŞEYLER EKLEYECEĞİM HERHALDE AKLIMA HER YENİ 
+                BİR ŞEY GELDİĞİNDE DİREKT OTURUP YAPIYORUM İMDAT...
+                </br></br>
+                SENİ ÇOOKKKK SEVİYORUM DENİZİMMM!!!! çok aşığım sana ya of
+                </br></br>   
+                PS: SENİ GÖTÜRECEĞİM YERİ BEĞENİRSİN UMARIMMM
+                </br></br>
+                PSPS: askim biraz planlar değişti ama olsun imdat 😭 umarim bu şekilde de beğenirsin :3
+                </br></br>
+                08.07.2025 #NEVERFORGET AMK 
+			</p>		
         </div>`
 };
 

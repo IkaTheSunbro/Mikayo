@@ -229,7 +229,7 @@ span:last-child {
     position: absolute;
     width: 100px;
     height: 100px;
-    bottom: -100vw;
+    bottom: -140vw;
     right: 0vw;
     transform: rotateY(180deg);
     z-index: 100;
@@ -545,3 +545,5 @@ a { color: inherit; }
     font-weight: 700;
     font-style: normal;
   }
+
+
