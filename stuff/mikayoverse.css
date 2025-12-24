@@ -1,0 +1,32 @@
+.sidebar {
+    position: fixed;              
+    bottom: 10px;                 
+    left: 10px;                   
+    background-color: transparent;
+    padding: 5px;                 
+    border-radius: 10px;          
+    display: flex;                
+    flex-direction: column;       
+    gap: 15px;                    
+}
+
+.sidebar-button {
+    background-color: white;      
+    color: #feb2dd;               
+    border: 4px solid #ffd5ed;    
+    border-radius: 20px;           
+    padding: 10px 20px;            
+    cursor: pointer;               
+    transition: background-color 0.3s; 
+    font-family: "Sour Gummy", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.sidebar-button:hover {
+    background-color: #ffd5ed; 
+    color: white;              
+}
