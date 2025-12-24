@@ -24,5 +24,5 @@ function startCountdown(targetDate) {
 }
 
 // Set your target date
-const nextMeetingDate = new Date('2025-08-31T13:00:00'); // Adjust this date
+const nextMeetingDate = new Date('2025-12-25T21:00:00'); // Adjust this date
 startCountdown(nextMeetingDate);

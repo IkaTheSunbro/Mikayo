@@ -14,7 +14,7 @@ body {
 .heart {
     position: absolute;
     top: -20px;
-    color: #ffefd5;
+    color: #e2d5ff;
     animation: raining 5s linear infinite;
     z-index: -1;
 }
@@ -22,7 +22,7 @@ body {
 .heart::before {
     content: '\f004';
     font-family: fontAwesome;
-    text-shadow: 0 0 5px #ffefd5, 0 0 20px #ffefd5, 0 0 50px #ffefd5;
+    text-shadow: 0 0 5px #e2d5ff, 0 0 20px #e2d5ff, 0 0 50px #e2d5ff;
 }
 
 
@@ -61,8 +61,8 @@ body {
     max-height: 80px;         
     border-radius: 50%;       
     background-color: white;   
-    border: 5px solid #ffefd5; 
-    box-shadow: 0 4px 15px #ffefd5; 
+    border: 5px solid #e2d5ff; 
+    box-shadow: 0 4px 15px #e2d5ff; 
     margin: 5px;               
     display: flex;             
     flex-direction: column;    
@@ -80,22 +80,22 @@ body {
 span:first-child {
     font-weight: bold;     
     font-size: 1vw;        
-    color: #e79528;       
+    color: rgb(216, 119, 194);       
 }
 
 span:last-child {
     font-size: 1.5vw;      
     color: #ffffff;       
     text-shadow: 
-        1px 1px 0px #e79528,   
-        -1px -1px 0px #e79528, 
-        1px -1px 0px #e79528,  
-        -1px 1px 0px #e79528,  
-        0px 0px 3px #e79528;   
+        1px 1px 0px rgb(216, 119, 194),   
+        -1px -1px 0px rgb(216, 119, 194), 
+        1px -1px 0px rgb(216, 119, 194),  
+        -1px 1px 0px rgb(216, 119, 194),  
+        0px 0px 3px rgb(216, 119, 194);   
 }
 
 .counter-title {
-    color: #e79528;        
+    color: rgb(216, 119, 194);        
     font-size: 1.5rem;      
     text-align: center;     
     margin-bottom: 5px;     
@@ -135,8 +135,8 @@ span:last-child {
 
 .sidebar-button {
     background-color: white;      
-    color: #e79528;               
-    border: 4px solid #eec186;    
+    color: rgb(216, 119, 194);               
+    border: 4px solid plum;    
     border-radius: 20px;           
     padding: 10px 20px;            
     cursor: pointer;               
@@ -150,7 +150,7 @@ span:last-child {
 }
 
 .sidebar-button:hover {
-    background-color: #eec186; 
+    background-color: plum; 
     color: white;              
 }
 
@@ -163,7 +163,7 @@ span:last-child {
     width: 600px;            
     max-width: 100%;         
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    color: #e79528;
+    color: rgb(216, 119, 194);
     margin: 20px auto;       
     display: flex;          
     justify-content: center;
@@ -180,7 +180,7 @@ span:last-child {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-    color: #e79528;                                     
+    color: rgb(216, 119, 194);                                     
    
 }
 
@@ -192,7 +192,7 @@ span:last-child {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-    color: #e79528;                                     
+    color: rgb(216, 119, 194);                                     
    
 }
 
@@ -229,7 +229,7 @@ span:last-child {
     position: absolute;
     width: 100px;
     height: 100px;
-    bottom: -140vw;
+    bottom: -80vw;
     right: 0vw;
     transform: rotateY(180deg);
     z-index: 100;
@@ -241,7 +241,7 @@ span:last-child {
     padding: 20px;                
     margin: 20px auto;            
     max-width: 600px;             
-    color: #e79528;              
+    color: rgb(216, 119, 194);              
 }
 
 .to-do {
@@ -253,7 +253,7 @@ span:last-child {
     width: 600px;            
     max-width: 100%;         
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    color: #e79528;
+    color: rgb(216, 119, 194);
     margin: 20px auto;      
     display: flex;          
     justify-content: center;
@@ -269,7 +269,7 @@ span:last-child {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-    color: #e79528;                                      
+    color: rgb(216, 119, 194);                                      
 }
 
 .to-do ul {
@@ -280,7 +280,7 @@ span:last-child {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-    color: #e79528;                                      
+    color: rgb(216, 119, 194);                                      
 }
 
 .to-do li {
@@ -291,7 +291,7 @@ span:last-child {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-    color: #e79528;    
+    color: rgb(216, 119, 194);    
 }
 
 .kitty {
@@ -322,7 +322,7 @@ span:last-child {
     top: 10px;
     left: 10px;
     background-color: white;
-    border: 2px solid #e79528;
+    border: 2px solid rgb(216, 119, 194);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -333,7 +333,7 @@ span:last-child {
   font-variation-settings:
     "wdth" 100;
     font-size: 1.1rem;
-    color: #e79528;
+    color: rgb(216, 119, 194);
 }
 
 .countdown {
@@ -361,8 +361,8 @@ span:last-child {
     max-height: 80px;
     border-radius: 50%;
     background-color: white;
-    border: 5px solid #eec186;
-    box-shadow: 0 4px 15px #eec186;
+    border: 5px solid plum;
+    box-shadow: 0 4px 15px plum;
     margin: 5px;
     display: flex;
     flex-direction: column;
@@ -377,7 +377,7 @@ span:last-child {
 }
 
 .counter-title {
-    color: #e79528;
+    color: rgb(216, 119, 194);
     font-size: 1.3rem;
     text-align: center;
     margin-bottom: 5px;
@@ -422,7 +422,7 @@ span:last-child {
 }
 
 .password-box button {
-    background-color: #ff7700;
+    background-color: palevioletred;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -433,12 +433,12 @@ span:last-child {
 }
 
 .password-box button:hover {
-    background-color: #ff7700;
+    background-color: palevioletred;
 }
 
 .password-box input:focus {
     outline: none;
-    border-color: #ff7700;
+    border-color: palevioletred;
 }
 
 
@@ -478,10 +478,10 @@ a { color: inherit; }
     margin-bottom: 20px;          
     padding: 10px;                
     font-size: 16px;              
-    border: 2px solid #eec186;   
+    border: 2px solid plum;   
     border-radius: 10px;          
     background-color: #ffffff;   
-    color: #e79528;              
+    color: rgb(216, 119, 194);              
     cursor: pointer;              
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); 
 }
@@ -494,17 +494,17 @@ a { color: inherit; }
 .messages-header h2 {
     margin: 0;                      
     font-size: 1.8rem;              
-    color: #e79528;                
+    color: rgb(216, 119, 194);                
 }
 
 #messageDropdown {
     margin: 0;                     
     padding: 10px;                 
     font-size: 16px;               
-    border: 2px solid #eec186;     
+    border: 2px solid plum;     
     border-radius: 10px;           
     background-color: #ffffff;     
-    color: #e79528;               
+    color: rgb(216, 119, 194);               
     cursor: pointer;               
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
@@ -513,7 +513,7 @@ a { color: inherit; }
 .message-content p {
     font-size: 1.2rem;              
     margin-bottom: 15px;            
-    color: #e79528;                
+    color: rgb(216, 119, 194);                
 }
 
 #mikayo-container {

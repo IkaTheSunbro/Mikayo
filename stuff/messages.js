@@ -173,6 +173,54 @@ const messages = {
                 </br></br>
                 08.07.2025 #NEVERFORGET AMK 
 			</p>		
+        </div>`,
+
+        anniversary: `<img src="media/uma-left.gif" alt="Decorative GIF" class="overlay-image" id="uma-left">
+        <img src="media/uma-right.gif" alt="Decorative GIF" class="overlay-image" id="uma-right">
+
+        <div class="text-image-container">
+            <img src="media/yildonumu.gif" alt="Decorative GIF" class="overlay-image">
+            <img src="media/burningorange.gif" alt="Decorative GIF" class="overlay-image">
+        </div>
+
+        <div class="love-message">
+            <p class="love-text">
+				DENIZZZ NEREDEN BAŞLASAM BILMIYORUM BILE GECEN SENE SENI ILK GORDUGUM ANDA NASIL KALBIM PIT PIT 
+                ATIYORSA SU AN SANA BUNU YAZARKEN DE AYNI HEYECANLA ATMAYA DEVAM EDIYOR <3333 KOSKOCAMAN BIR SENEYI
+                BERABER ATLATTIK VE GECIRDIGIM HER BIR GUN, UYANDIGIM HER BIR SABAH SENLE BERABER GUZELLESTI SEVGILIMMM <333
+                CIDDEN HAYATIMA O KADAR RENK KATTIN KI SEN OLMADAN ONCE HAYATI YASADIGIMI DUSUNMUYORUM BILE EHHHEHEHE SANKI 
+                YASAMAYI SENLE OGRENMISIM GIBI HISSEDIYORUM <333333 DENIZZZ HER SEY ICIN O KADAR TESEKKUR EDERIM KI GERCEKTEN
+                BANA HAYATIMIN EN GUZEL SENESINI YASATTIN VE UMARIM BUNDAN SONRA DA BERABER NICE YILDONUMLERIMIZI KUTLARIZ HAYATIM <33333
+                onemli duyuru: su an deniz yastigima sariliyorum... onemli duyuru bitti ☝️☝️ KESKE SU AN YANIMDA OLSAN DA
+                SENIN O YUMUSACIK YANAKLARINI SIMSIKI TUTUP BOYLE SAATLERCE UCUCUUUCCUCUCUCU YAPIP MINCIRSAMMMM :3333 COOKKKK AMA
+                COOOOKKKKK ASIGIM SANA DENIZ YILDIZIM BENIMMMM SANA OLAN SEVGIM BERABER GECIRDIGIMIZ HER GUN KATLANARAK ARTTI CIDDEN <3333
+                AKLIM ALMIYOR GERCEKTEN BAZEN BIR INSANA BU KADAR ASIK OLMANIN NASIL MUMKUN OLDUGU :333 SONRA SENIN NE KADAR MUKEMMEL,
+                NE KADAR TATLI, NE KADAR KOMIK, NE KADAR NAZIK, NE KADAR GUZEL, NE KADAR ZEKI, NE KADAR YETENEKLI, NE KADAR IYI KALPLI,
+                NE KADAR öhm öhm, NE KADAR KUSURSUZ OLDUGUNU HATIRLAYINCA ANLIYORUM SONRA TABI :333333 DENIZZZAGWEGWHHWHWHAHJJ OFFFFF
+                GELECEK AY SEN BUNU OKURKEN UZERINE ATLADIGIMIN HAYALINI KURUYORUM SIMDIDENNNNN <33333 HEMEN GELIR DE SENLE DUNYANIN ENNN
+                AMA ENNN AMA ENNNNN GUZEL YILDONUMUNU KUTLARIZZZZ (gelecek seneye kadar)(ve ondan da sonraki gelecek seneye kadar) <33333
+                su an dusunuyorum da harbiden 8 milyar kisi arasindan bir tek benim karsima bir melek dustu :333 butun dunyaya agirsal derecede
+                koymusum ngl ☝️ RAHHHHHH KIMSENIN DENIZI YOK PUHHAHAHWHAHHAHA HAYATTA AGIR KAZANIYORUM AMK NEYSE ASKIM BUNU YAZARKEN DENIZ YASTIGIMI
+                ISIRDIM KENDIME GELDIM <33333 EHHEHEHEHE DENIZIMMMMM SENI COOKKKKK AMA COOOOKKKKKK SEVIYORUMMMM TEKRARDAN YILDONUMUMUZ KUTLU
+                OLSUN BIR TANECIK ESIM BENIMMMM :3333 SANA SIMSIKI SARILIP O SIMSICACIK DUDAKLARINA YAPISMANIN HAYALINI KURUYORUM SU AN :3333<br><br>
+
+                PS: askim marjinallik olsun diye websitenin renklerini degistirdim<br><br>
+                psps: geri alıcam birkaç aya 😭<br><br>
+                pspsps: almasam mi ya da <br><br>
+                pspspsps: bunu yazdıktan 1 hafta sonra gene baktım da eskisi daha iyidi geri alıcam...<br><br>
+
+                pspspspsps: ASKIMMMAWGHGWHWHH YENI BIR PROJEYE BASLADIMMMM UMARIM COOKKKKK AMA COOOKKKKKKKK SEVERSINNNNEHEHEHEHHEE AKLIMDA 
+                MANYAK FIKIRLER VAR...<br><br>
+
+                pspspspspspspspsps: GUNLUK DENIZIMI COK AMA COKKKK SEVIYORUM DUYURUSU ☝️☝️☝️<br><br>
+
+                pspspsppmeowowowspspss: meow demeye geldim <br><br>
+
+                PSPSPSPSPSPSPSP: SITENIN RENKLERINE ALISAMADIM AMK SEN BUNU GORUNTULEDIGINDEN SONRAKI GUN ESKISINE DONDURUCEM 😭😭😭<br><br>
+
+                pspspsp: YILDONUMUMUZ KUTLU OLSUN SIMDIDEN SEVGILIMMMM EHEHHEHEHEHE SON 1 GUN KALDIIII <3333333333333333333
+
+			</p>		
         </div>`
 };
 
